@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Pacific Trials Resort:: Reservations</title>
+    <link rel="stylesheet" href="Pacific.css">
+    <link href="Pacific.css" rel="stylesheet" media="(min-width: 600px)">
+    <link href="Pacific.css" rel="stylesheet" media="(min-width: 1024px)">
+    <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+  </head>
+   <body>
+     <div id="wrapper">
+       <header>
+              <h1><a href="index.html">Pacific Trails Resort</a></h1>
+       </header>
+          <nav>
+             <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="Yurts.html">Yurts</a></li>
+               <li><a href="Activities.html">Activities</a></li>
+               <li><a href="Reservations.html">Reservations</a></li>
+             </ul>
+          </nav>
+            <main>
+                <h2 class="resort">Reservations at Pacific Trails</h2>
+                <h3>Contact us Today!</h3>
+                <p>Required fields are marked with an asterisk*</p> <br>
+                      <form method="post" action="https://webdevbasics.net/scripts/pacific.php">
+                           <label for="First">*First Name:</label>
+                             <input type="text" Name="First" id="First" required="required">
+                           <label for="Last">*Last Name:</label>
+                             <input type="text" Name="Last" id="Last" required="required">
+                           <label for="email">*E-mail:</label>
+                             <input type="email" Name="email" id="email" required="required">
+                           <label for="Phone">Phone:</label>
+                             <input type="tel" Name="Phone" id="Phone">
+                           <label for="Date">Arrival Date</label>
+                             <input type="date" Name="Date" id="Date">
+                           <label for="night">Nights:</label>
+                             <input type="number" name="night" id="night" min="1" max="14">
+                           <label for="comments">*Comments:</label>
+                            <textarea name="comments" id="comments" rows="2" cols="30" required="required"></textarea>
+                           <input type="submit" value="Submit">
+                           </form>
+                <a class="resort">
+                    Pacific Trials Resort
+                </a><br>
+                12010 Pacific Trials Road <br>
+                Zephyr, CA 95555 <br><br>
+                888-555-5555
+            </main>
+               <footer>
+                   <small><i>copyright &copy 2020 Pacific Trials Resort</i></small> <br>
+                   <small><i><a href="mailto:jessica@vanvalkenburg.com">jessica@vanvalkenburg.com</a></i></small>
+                   <a href="privacy.html">privacy</a>
+               </footer>
+     </div>
+   </body>
+</html>
